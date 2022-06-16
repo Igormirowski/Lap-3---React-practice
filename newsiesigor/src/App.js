@@ -1,11 +1,12 @@
-
 import './App.css';
+import ReaderCount from './components/ReaderCount';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      Counter Component
+      <ReaderCount />
       </header>
     </div>
   );

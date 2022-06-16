@@ -2,7 +2,10 @@
 
 - npx create-react-app newsiesigor
 - cd into folder
+- npm start (CRA)
 - create component folder -> create Counter.js
+- tidy up
+
 
 
 # Getting Started with Create React App
