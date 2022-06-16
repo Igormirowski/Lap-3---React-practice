@@ -10,6 +10,8 @@ const FaveButton = () => {
     return (
         
         <span
+        rolw="switch"
+        aria-checked={faved}
         style={{ color: faved ? 'red' : 'grey'}}
         onClick={handleFaveBtnClick}
         >
