@@ -9,7 +9,10 @@ const ReaderCount = () => {
     }
     
     return (
-       <p> There have been 0 readers</p>
+        <>
+        <p> There have been 0 readers</p>
+        <button>I've read </button>  
+        </>
     )
 }
 
