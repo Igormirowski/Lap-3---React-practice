@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 
 
 const ReaderCount = () => {
-    const [counter, setCounter] = useState(0)
-
-    const onBtnClick = () => {
-        setCounter(counter + 1)     // OR setCounter(prevCounter => prevCounter + 1)
-    }
+    const [readsCount, serReadsCount] = useState(0)
     
+
+    const increaseReadsCount = () => {
+        serReadsCount(readsCount +1)
+    }
     return (
         <>
-        <p> There have been 0 readers</p>
-        <button>I've read </button>  
+        <p> There have been {readsCount} readers</p>
+        <button onClick={increaseReadsCount}>I've read </button>  
         </>
     )
 }
