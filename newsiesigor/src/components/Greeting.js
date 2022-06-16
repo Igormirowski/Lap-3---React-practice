@@ -14,6 +14,7 @@ const Greeting = () => {
     const handleFormSubmit = (e)=> {
     e.preventDefault()
     setUsername(nameInput)
+    setNameInput('') //clear name after type and enter
 }
 
     return (

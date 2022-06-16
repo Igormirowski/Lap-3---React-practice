@@ -1,5 +1,7 @@
 # Lap-3---React-practice
 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 - npx create-react-app newsiesigor
 - cd into folder
 - npm start (CRA)
