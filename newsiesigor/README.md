@@ -1,6 +1,6 @@
 # Lap-3---React-practice
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Screen Recording 2022-06-16 at 12 29 37](https://user-images.githubusercontent.com/99121268/174062774-64a0c5fe-283e-468f-b7fb-fd09b35a8730.gif)
 
 - npx create-react-app newsiesigor
 - cd into folder
