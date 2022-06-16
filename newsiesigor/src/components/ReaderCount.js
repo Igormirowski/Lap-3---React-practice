@@ -6,13 +6,13 @@ const ReaderCount = () => {
     
 
     const increaseReadsCount = () => {
-        serReadsCount(readsCount +1)
+        serReadsCount(prevCount=> prevCount +1)
     }
     return (
         <>
-        <p> There have been {readsCount} readers</p>
-        <button onClick={increaseReadsCount}>I've read </button>  
-        </>
+        <p> There have been <span role="figure">{readsCount}</span> readers</p>
+        <button aria-label="Read story" onClick={increaseReadsCount}>I've read </button>  
+        </> 
     )
 }
 
